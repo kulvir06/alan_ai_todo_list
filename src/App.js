@@ -47,8 +47,10 @@ function App() {
   }, []);
 
   return (
-    <div>
-      <div className='todo-app'>
+    <div class="bg-blue-100 h-screen" >
+      <p class="italic text-2xl bg-blue-100 text-center">VOICE CONTROLLED TODO LIST</p>
+      <p class="text-center">Just say ADD/COMPLETE/DELETE *your task name*</p>
+      <div class="bg-blue-100">
         <Todo setUpdate={setUpdate} update={update} />
       </div>
     </div>

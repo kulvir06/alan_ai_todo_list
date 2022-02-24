@@ -20,7 +20,7 @@ function Todo(props) {
   }, [props.update])
 
   return (
-    <div>
+    <div >
       <Task
         loading={loading}
         todos={todos}
